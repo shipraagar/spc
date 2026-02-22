@@ -16,11 +16,15 @@
         <version>3.5.4</version>
         <relativePath/> <!-- lookup parent from Maven repository -->
     </parent>
-    <distributionManagement>
-    <snapshotRepository>
-        <id>nexus</id>
-        <url>http://16.170.248.192:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+   <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://16.170.248.192:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus</id>
+            <url>http://16.170.248.192:8081/repository/maven-releases/</url>
+        </repository>
     </distributionManagement>
 
     <properties>
