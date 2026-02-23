@@ -7,7 +7,7 @@
     <artifactId>spring-petclinic-rest</artifactId>
     <version>3.4.3</version>
 
-    <description>The new REST version of the new sprin Spring Petclinic sample application</description>
+    <description>The new check for webhook EST version of the new sprin Spring Petclinic sample application</description>
     <url>https://spring-petclinic.github.io/</url>
 
     <parent>
